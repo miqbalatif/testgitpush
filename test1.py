@@ -8,6 +8,7 @@ d1={'name':'ali', 'age':20, 'job':'student', 'marital':'single', 'education':'hi
 d2={'name':'ali', 'age':20, 'job':'student', 'marital':'single', 'education':'highschool'}
 d3={'name':'ali', 'age':20, 'job':'student', 'marital':'single', 'education':'highschool'}
 d4={'name':'ali', 'age':20, 'job':'student', 'marital':'single', 'education':'highschool'}
+d5={'name':'ali', 'age':20, 'job':'student', 'marital':'single', 'education':'highschool'}
 db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d)
